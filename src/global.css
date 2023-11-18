@@ -1,0 +1,10 @@
+body {
+    overflow: hidden !important;
+    height: 100vh;
+}
+.fwt-700 {
+    font-weight: 700;
+}
+#root {
+    height: 100vh;
+}

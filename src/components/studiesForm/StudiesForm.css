@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+.bg-form {
+    background: linear-gradient(212deg, #FECAAD -0.49%, #FFF8F5 100%);
+    height: 100% !important;
+}
+
+.studiesCard {
+    border-radius: 35px;
+    border: 1px solid #FECAAD;
+    box-shadow: 0px 0px 2px 1px rgba(254, 202, 173, 0.35);
+    height: 70vh;
+    overflow-y: scroll !important;
+}
+
+.selfContainer {
+    width: 85%;
+    height: 100% !important;
+
+}
+
+.formHeading {
+    font-size: 20px;
+}
+
+.bgCardImg {
+    background-image: url("../../assets/images/cardBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 31%;
+    height: 100%;
+}
+
+.datePicker {
+    border-radius: 10px;
+    border: 1px solid #FECAAD;
+    background: #FFF;
+    box-shadow: 0px 0px 2px 1px rgba(254, 202, 173, 0.75);
+    cursor: pointer;
+    width: 100% !important;
+}
+
+.datePicker::-webkit-inner-spin-button,
+.datePicker::-webkit-calendar-picker-indicator {
+    margin: 0;
+    opacity: 0;
+    font-size: 35px;
+    position: absolute;
+    left: 3.5%;
+    cursor: pointer;
+}
+
+.custom-date-input {
+    position: relative;
+}
+
+.custom-date-input::before {
+    content: url("../../assets/images/calendar.png");
+    position: absolute;
+    left: 8%;
+    top: -38px !important; 
+    pointer-events: none !important;
+}
+
+.datePickerLabel {
+    font-size: 18px;
+}
+
+.textArea {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #FECAAD;
+    background: #FFF;
+    box-shadow: 0px 0px 2px 1px rgba(254, 202, 173, 0.75);
+    resize: none;
+    text-align: end !important;
+}
+
+.textArea:focus-visible,
+.fileName:focus-visible,
+.txt {
+    outline: none;
+}
+
+.fileName,
+.txt {
+    border-radius: 10px;
+    border: 1px solid #FECAAD;
+    background: #FFF;
+    text-align: center;
+    box-shadow: 0px 0px 2px 1px rgba(254, 202, 173, 0.75);
+    cursor: pointer;
+}
+
+.txt {
+    cursor: text;
+    text-align: end;
+}
+
+.txtAreaLabel {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+.formBtn {
+    border-radius: 30px;
+    background: linear-gradient(90deg, #FECDB3 0%, #FBE2D4 100%) !important;
+    box-shadow: 0px 0px 4px 0px #8F8F8F;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.formBtn:hover {
+    background: none !important;
+    background-color: #000 !important;
+    color: #FFFFFF;
+    transform: translateY(0) scale(0.9) !important;
+}
+
+.studiesCard::-webkit-scrollbar {
+    display: none;
+}
+
+.studiesCard {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.selectOptions {
+    border: 2px solid #FECAAD;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.selectOptions>option {
+    font-weight: 600;
+    background-color: #FECAAD;
+}
+
+.selectOptions:focus-visible {
+    outline: none;
+}
+
+.loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin-inline: auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

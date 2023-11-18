@@ -1,0 +1,22 @@
+.categoryText {
+    width: 100%;
+    text-align: left;
+}
+
+.typeText{
+    padding-left: 37%;
+}
+
+.fileText{
+    padding-left: 57%;
+}
+
+.fileSpan {
+    color: #000;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

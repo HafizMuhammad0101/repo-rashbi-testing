@@ -1,0 +1,26 @@
+.bg-btn {
+    background: none;
+    padding-block: 9.5px;
+}
+
+.active {
+    background-color: black !important;
+}
+
+.bg-btn:hover {
+    background-color: black;
+}
+
+.activeText {
+    color: white !important;
+}
+
+.bg-btn:hover .icon,
+.bg-btn:hover .title {
+    color: white !important;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,0 +1,10 @@
+.header {
+    height: 100%;
+    background-color: #FECAAD;
+}
+
+.headerHeading {
+    font-size: 29px;
+    font-weight: 700;
+    padding-block: 40px;
+}

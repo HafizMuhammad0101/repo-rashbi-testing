@@ -1,0 +1,18 @@
+.selectOptions {
+    border: 2px solid #FECAAD;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.selectOptions>option {
+    font-weight: 600;
+    background-color: #FECAAD;
+}
+
+.selectOptions:focus-visible {
+    outline: none;
+}
+
+.formHeading {
+    font-size: 20px;
+}

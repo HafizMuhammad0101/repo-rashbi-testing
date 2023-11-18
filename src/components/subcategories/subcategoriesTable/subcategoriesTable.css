@@ -1,0 +1,249 @@
+.mainContainer {
+    height: 77vh;
+    overflow-y: scroll;
+    padding: 50px;
+    width: 100%;
+}
+
+.bg-form {
+    background: linear-gradient(212deg, #FECAAD -0.49%, #FFF8F5 100%);
+    height: 100% !important;
+}
+
+.parentalCard {
+    border-radius: 35px;
+    border: 1px solid #FECAAD;
+    box-shadow: 0px 0px 2px 1px rgba(254, 202, 173, 0.35);
+}
+
+.bgImg {
+    position: absolute !important;
+    width: 100% !important;
+    object-fit: cover;
+    z-index: 0;
+    height: 80%;
+
+}
+
+.mainContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.mainContainer {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.rdt_Table {
+    background-color: transparent !important;
+    padding-left: 82px;
+    padding-right: 47px;
+}
+
+.rdt_TableCol_Sortable {
+    color: #000;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.rdt_TableHeadRow {
+    border-radius: 24.5px;
+    background: #FECAAD !important;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.25);
+    border-bottom: none !important;
+    margin-block: 12px;
+    padding-left: 40px;
+    padding-right: 10px;
+
+}
+
+.rdt_TableRow {
+    border: 1px solid #FECAAD;
+    border-bottom: 1px solid #FECAAD !important;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 0px 2px 1px rgba(254, 202, 173, 0.75);
+    margin-bottom: 12px;
+}
+
+#cell-1-undefined {
+    padding-left: 68px !important;
+}
+
+#cell-2-undefined {
+    justify-content: center;
+}
+
+#cell-3-undefined {
+    justify-content: end;
+    padding-right: 31px;
+}
+
+.rdt_TableCell div {
+    padding-block: 18px;
+}
+
+/* .hgMgsX, */
+.lcunyj {
+    display: none;
+}
+
+.hgMgsX {
+    position: absolute;
+    left: 43% !important;
+    top: 45%;
+    font-size: 23px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #000;
+}
+
+#pagination-first-page,
+#pagination-last-page {
+    display: none;
+}
+
+#pagination-previous-page {
+    background-color: rgb(254, 202, 173);
+    padding: 0;
+    margin-right: 53px;
+
+}
+
+#pagination-previous-page>svg {
+    width: 31.25px;
+    height: 31.25px;
+}
+
+#pagination-next-page {
+    background-color: rgb(223, 215, 210);
+    padding: 0;
+}
+
+#pagination-next-page>svg {
+    width: 31.25px;
+    height: 31.25px;
+}
+
+.rdt_Pagination {
+    background-color: transparent !important;
+    border: none !important;
+    padding-left: 82px !important;
+    padding-right: 47px !important;
+    flex-direction: row-reverse;
+    justify-content: space-between !important;
+    position: relative;
+}
+
+.sc-ezrdqu {
+    padding-top: 57px;
+    padding-bottom: 43px;
+    position: relative;
+}
+
+.sc-kLgoAE {
+    padding-bottom: 110px !important;
+    color: #4B4B4B;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* transform: scale(-1, 1); */
+    direction: rtl !important;
+    unicode-bidi: bidi-override;
+}
+
+.sc-kLgoAE::before {
+    content: 'מציג';
+}
+
+.sc-kLgoAE::after {
+    content: ' קטגוריות משנה';
+}
+
+
+
+.studiesText {
+    width: 100%;
+    text-align: center;
+}
+
+.seriolText {
+    width: 100%;
+    text-align: right;
+}
+
+
+.subContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 51px;
+    padding-left: 82px;
+    padding-right: 47px;
+    align-items: center;
+}
+
+.addFileBtn {
+    border-radius: 30px;
+    background: linear-gradient(90deg, #FECDB3 0%, #FBE2D4 100%);
+    box-shadow: 0px 0px 4px 0px #8F8F8F;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+.addFileBtn:hover {
+    background: #000 !important;
+    color: white;
+}
+
+.linkClass:hover {
+    color: white !important;
+}
+
+.searchField {
+    width: 214px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FECAAD;
+    background: #FFF;
+    margin-right: 16px;
+    text-align: right;
+}
+
+.searchField:focus-visible {
+    outline: none !important;
+}
+
+.searchText {
+    color: #000;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* @media screen and (min-width:1024px) and (max-width:1439px) {
+    .hgMgsX {
+        left: 18.5%;
+    }
+} */

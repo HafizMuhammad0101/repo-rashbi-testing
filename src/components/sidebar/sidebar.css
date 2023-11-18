@@ -1,0 +1,29 @@
+.sidebar {
+    max-height: 100vh;
+    background-color: #FECAAD !important;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.userName {
+    font-size: 31px !important;
+    font-weight: 700;
+}
+
+.logOutRow {
+    height: 20vh;
+}
+
+@media screen and (min-width:1440px) {
+    .sidebar {
+        height: 100vh !important;
+    }
+}

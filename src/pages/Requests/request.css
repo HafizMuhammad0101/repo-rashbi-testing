@@ -1,0 +1,9 @@
+.request{
+    height: 100vh;
+}
+
+.bg-form {
+    background: linear-gradient(212deg, #FECAAD -0.49%, #FFF8F5 100%);
+    height: 100% !important;
+    width: 82.7%;
+}
